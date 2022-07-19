@@ -6,3 +6,16 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+
+import LegoStarwars from "./Legostarwars";
+
+const newLego = new LegoStarwars(
+    2,
+    1,
+    8,
+    false,
+    10,
+    90
+);
+
+console.log("Aca esta el nuevo lego",newLego);
