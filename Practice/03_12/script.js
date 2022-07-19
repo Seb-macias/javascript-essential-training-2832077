@@ -7,9 +7,9 @@
  * - Test the objecs by calling their properties and using their methods in the console.
  */
 
-import LegoStarwars from "./Legostarwars";
+import LegoStarwars from "./Legostarwars.js";
 
-const newLego = new LegoStarwars(
+const Lego1 = new LegoStarwars(
     2,
     1,
     8,
@@ -18,4 +18,14 @@ const newLego = new LegoStarwars(
     90
 );
 
-console.log("Aca esta el nuevo lego",newLego);
+console.log("Aca esta el nuevo lego",Lego1);
+
+const Lego2 = new LegoStarwars(
+    1,
+    2,
+    3,
+    true,
+    99,
+    1
+)
+console.log("aca esta el otro lego",Lego2)
